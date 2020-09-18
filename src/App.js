@@ -1,8 +1,15 @@
 import React from 'react';
+import TodoFormWithContext from './components/TodoForm';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
+    <div>
+      <h1>To-do List</h1>
+      <TodoFormWithContext />
+      <TodoList />
+    </div>
+
   );
 }
 
